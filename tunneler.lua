@@ -8,6 +8,7 @@
 --	end
 -- end
 
+-- test test
 function digIt(block)
 	while turtle.detect() do
 		turtle.dig()
