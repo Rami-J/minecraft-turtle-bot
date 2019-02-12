@@ -6,7 +6,7 @@ function dropBlocks()
 	for i = 1, 15 do
 		turtle.select(i)
 		local data = turtle.getItemDetail(i)
-		if data.name == "cobblestone" or data.name == "dirt" or data.name == "gravel"
+		if data.name == "cobblestone" or data.name == "dirt" or data.name == "gravel" then
 			turtle.drop()
 		end
 	end
@@ -100,16 +100,6 @@ function digLoop(length, width)
      		placeTorch()
   		end
 	end
-
- -- Accounts for one-off error if the length was even
- if length % 2 == 0 then
-   turtle.turnLeft()
-   digIt(1)
-   turtle.turnLeft()
-   for i = 1, width - 1 do
-     digIt(i)
-   end
- end
 end
 
 --=========Main Function===========
