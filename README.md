@@ -1,2 +1,2 @@
 # minecraft-turtle-bot
-Minecraft Turtlebot programs to assist in mining with the Computer Craft mod.
+Minecraft Turtlebot Lua scripts to assist in mining with the ComputerCraft mod.
